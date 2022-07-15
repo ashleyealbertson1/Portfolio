@@ -49,7 +49,7 @@ footer {
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    background-color: #DADADA;
 }
 
 ul {
@@ -67,11 +67,13 @@ li {
     font-weight: bold;
     color: black;
     margin: 10px;
-    background-color: white;
+    background-color: #DADADA;
 }
 
 span {
-    border: solid #181A18 2px;
+    border-bottom: #181A18 2px solid;
+    
+    
 }
 
 
@@ -140,17 +142,18 @@ h2 {
     width: 150px;
     height: 40px;
     background-color: #181A18;
-    /* border: solid white 5px;     */
+    border: solid #DADADA 5px;    
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 32px;
     color: white;
     /* font-weight: bold; */
     border-radius: 10px;
+    text-align: center;
 }
 
 .button:hover {
-    box-shadow: 5px 5px 20px #181A18;
+    border: solid #d9e506 5px;
 
 }
 
