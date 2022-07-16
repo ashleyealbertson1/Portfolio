@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Playfair+Display:wght@500&family=Roboto:wght@100&display=swap');
 
 
+
+
 .container-hero {
     height: 80vh;
     background-color: #DADADA;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-right:#181A18 solid 10px;
+    
     
     
     
@@ -15,13 +17,13 @@
 }
 
 .spacer {
-    background-color: #181A18;
+    background-color: rgb(81, 81, 81);
     height: 60px;
     border-bottom:solid white 30px;
     display: flex;
     text-align: center;
     justify-content: center;        
-    border-top: 10px solid #d9e506
+    
 }
 
 #skills {
@@ -49,7 +51,7 @@ footer {
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: #DADADA;
+    background-color: white;
 }
 
 ul {
@@ -65,28 +67,23 @@ li {
     font-family: 'Roboto', sans-serif;
     font-size: 23px;
     font-weight: bold;
-    color: black;
+    color: #2d2e31;
     margin: 10px;
-    background-color: #DADADA;
+    
 }
 
-span {
-    /* border-bottom: #181A18 2px solid; */
-    
-    
-}
+
 
 
 .logo {
-    font-family: 'Roboto', sans-serif;
-    font-size: 70px;
+    width: 300px;
 }
 
 
 h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 70px;
-    color: black;
+    color: #2e2d2c;
     margin-bottom: 5px;
 
 }
@@ -94,7 +91,7 @@ h1 {
 h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
-    color: black;
+    color: #2e2d2c;
     margin: 20px;
 
 }
@@ -117,6 +114,7 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 35.5px;
     font-weight: bold;
+    color:#2e2d2c
 
 }
 
@@ -141,14 +139,14 @@ h2 {
 .button {
     width: 150px;
     height: 40px;
-    background-color: #181A18;
-    border: solid #DADADA 5px;    
+    background-color: #54b0ad; ;
+    /* border: solid  #1EA1A1 4px;     */
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
     color: white;
     /* font-weight: bold; */
-    border-radius: 10px;
+    /* border-radius: 10px; */
     text-align: center;
 }
 
@@ -165,10 +163,10 @@ button:active {
 
 .socials {
     padding-bottom: 2px;
-    background-color: #d9e506;
+    background-color: #fff;
     height: 80vh;
     width: 7%;
-    border-left: solid white 50px
+    
 
     /* margin-right: 10px */
     /* border-left: solid #181A18 3px; */
